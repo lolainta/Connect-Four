@@ -10,11 +10,10 @@ class Board:
         self.mark=1
         self.connect=4
         self.cnt=1
-        self.round = 1
+        self.round=1
         self.valid=range(self.column)
         self.last=-1
         self.detail=detail
-        self.table[5][3]=2
 
     def print(self,dep=0):
         for row in self.table:
