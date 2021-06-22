@@ -2,7 +2,7 @@ import random
 import numpy as np
 import time
 from game import Board
-from agents import agent_minimax, agent_minimax4
+from agents import agent_minimax1,agent_minimax2,agent_score,agent_smarter,agent_smart,agent_random
 
 # Main Function
 def Run():
@@ -11,9 +11,9 @@ def Run():
     draw = 0
     N = 10
     for i in range(N):
-        print(i, "/", N, end=" \t", sep="")
-        game = Board()
-        result = game.start(agent_minimax, agent_minimax4)
+        print(i, "/", N, end=" \n", sep="")
+        game = Board(detail=True)
+        result = game.start([agent_minimax1,agent_minimax2])
         if result == 1:
             p1 += 1
         elif result == 2:

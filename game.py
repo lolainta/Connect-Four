@@ -2,7 +2,7 @@ import numpy as np
 import time
 
 class Board:
-    def __init__(self,row=6,column=7):
+    def __init__(self,row=6,column=7,detail=True):
         self.column=column
         self.row=row
         self.table=np.asarray([[0]*column for i in range(row)]).reshape(self.row,self.column)
@@ -12,8 +12,8 @@ class Board:
         self.round = 1
         self.valid=range(self.column)
         self.last=-1
+        self.detail=detail
     def print(self,dep=0):
-        print("Player",self.mark,"'s turn....",sep="")
         for row in self.table:
             print("\t"*dep,end="")
             for point in row:
@@ -68,29 +68,33 @@ class Board:
             return True
         return False
 
-    def start(self,agent1,agent2):
+    def start(self,agents):
         while not self.terminate():
-            self.print()
-            # print("1:",get_heuristic(self,1))
-            # print("2:",get_heuristic(self,2))
-            if self.mark==1:
-                # if not self.put(int(input())):
-                start_time = time.time()
-                if not self.put(agent1(self)):
-                    print("Invalid input.")
-                    break
-                end_time = time.time()
+            if self.detail:
+                self.print()
+                # print("\t"*dep,"Player",self.mark,"'s turn....",sep="")
+            # if self.mark==1:
+
+            start_time = time.time()
+            # if not self.put(int(input())):
+            if not self.put(agents[self.mark-1](self)):
+                print("Invalid input.")
+                break
+            end_time = time.time()
+            if self.detail:
                 print('Use %.3fs to make this step.' %(end_time - start_time))
-            elif self.mark==2:
-                # if not self.put(int(input())):
-                start_time = time.time()
-                if not self.put(agent2(self)):
-                    print("Invalid input.")
-                    break
-                end_time = time.time()
-                print('Use %.3fs to make this step.' %(end_time - start_time))
+
+            # elif self.mark==2:
+            #     start_time = time.time()
+            #     # if not self.put(int(input())):
+            #     if not self.put(agent2(self)):
+            #         print("Invalid input.")
+            #         break
+            #     end_time = time.time()
+            #     if self.detail:
+            #         print('Use %.3fs to make this step.' %(end_time - start_time))
                 self.round += 1
-            print("---------------------")
+            # print("---------------------")
         print("Game finished.")
 
         if self.win(1):
@@ -115,10 +119,10 @@ def drop_piece(grid, col):
     return next_grid
 
 # Returns True if dropping piece in column results in game win
-def check_winning_move(grid, col):
+def check_winning_move(grid, col, piece):
     # Convert the board to a 2D grid
     next_grid = drop_piece(grid, col)
-    if next_grid.win(grid.mark):
+    if next_grid.win(piece):
         return True
     return False
 
@@ -129,13 +133,13 @@ def score_move(grid, col):
 
 # Helper function for score_move: calculates value of heuristic for grid
 def get_heuristic(grid, piece):
-    num_twos = count_windows(grid, 2, piece)
-    num_threes = count_windows(grid, 3, piece)
-    num_fours = count_windows(grid, 4, piece)
-    num_twos_opp = count_windows(grid, 2, 3-piece)
-    num_threes_opp = count_windows(grid, 3, 3-piece)
-    num_fours_opp = count_windows(grid, 4, 3-piece)
-    score = 1e10*grid.win(piece) + 1e6*num_threes + 10*num_twos - 1*num_twos_opp - 1e6*num_threes_opp - 1e9*grid.win(3-piece)
+    num_twos = count_windows(grid, 2, 1)
+    num_threes = count_windows(grid, 3, 1)
+    num_fours = count_windows(grid, 4, 1)
+    num_twos_opp = count_windows(grid, 2, 3-1)
+    num_threes_opp = count_windows(grid, 3, 3-1)
+    num_fours_opp = count_windows(grid, 4, 3-1)
+    score = 1e10*grid.win(1) + 1e6*num_threes + 10*num_twos - 10*num_twos_opp - 1e6*num_threes_opp - 1e10*grid.win(3-1)
     return score
 
 # Helper function for get_heuristic: checks if window satisfies heuristic conditions
