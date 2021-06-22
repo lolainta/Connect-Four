@@ -1,0 +1,614 @@
+0/30
+Use 1.109s to make this step.
+Use 0.668s to make this step.
+Use 0.650s to make this step.
+Use 0.556s to make this step.
+Use 0.606s to make this step.
+Use 0.652s to make this step.
+Use 0.776s to make this step.
+Use 0.865s to make this step.
+Use 0.800s to make this step.
+Game finished.
+Player2 Win!!
+========================================
+1/30
+Use 1.022s to make this step.
+Use 0.961s to make this step.
+Use 0.735s to make this step.
+Use 0.887s to make this step.
+Use 0.969s to make this step.
+Use 0.258s to make this step.
+Use 0.473s to make this step.
+Use 0.407s to make this step.
+Use 0.398s to make this step.
+Use 0.263s to make this step.
+Use 0.173s to make this step.
+Game finished.
+Player2 Win!!
+========================================
+2/30
+Use 0.600s to make this step.
+Use 0.878s to make this step.
+Use 0.656s to make this step.
+Use 0.751s to make this step.
+Use 0.774s to make this step.
+Use 0.654s to make this step.
+Use 0.747s to make this step.
+Use 0.516s to make this step.
+Use 0.463s to make this step.
+Use 0.274s to make this step.
+Use 0.110s to make this step.
+Use 0.166s to make this step.
+Use 0.251s to make this step.
+Use 0.063s to make this step.
+Use 0.057s to make this step.
+Use 0.023s to make this step.
+Game finished.
+Player2 Win!!
+========================================
+3/30
+Use 1.047s to make this step.
+Use 0.763s to make this step.
+Use 0.654s to make this step.
+Use 0.624s to make this step.
+Use 1.538s to make this step.
+Use 0.810s to make this step.
+Use 0.673s to make this step.
+Use 0.655s to make this step.
+Use 0.876s to make this step.
+Use 1.187s to make this step.
+Use 0.771s to make this step.
+Use 0.573s to make this step.
+Use 0.544s to make this step.
+Use 0.445s to make this step.
+Game finished.
+Player2 Win!!
+========================================
+4/30
+Use 1.262s to make this step.
+Use 0.736s to make this step.
+Use 0.598s to make this step.
+Use 0.899s to make this step.
+Use 0.984s to make this step.
+Use 0.659s to make this step.
+Use 0.973s to make this step.
+Use 0.937s to make this step.
+Use 0.981s to make this step.
+Use 0.787s to make this step.
+Use 1.093s to make this step.
+Use 0.415s to make this step.
+Use 0.532s to make this step.
+Use 0.595s to make this step.
+Use 0.210s to make this step.
+Use 0.070s to make this step.
+Use 0.028s to make this step.
+Use 0.027s to make this step.
+Use 0.016s to make this step.
+Use 0.006s to make this step.
+Use 0.006s to make this step.
+Game finished.
+It's a draw game.
+========================================
+5/30
+Use 1.283s to make this step.
+Use 0.726s to make this step.
+Use 0.796s to make this step.
+Use 0.471s to make this step.
+Game finished.
+Player2 Win!!
+========================================
+6/30
+Use 1.316s to make this step.
+Use 0.873s to make this step.
+Use 0.949s to make this step.
+Use 0.699s to make this step.
+Use 0.521s to make this step.
+Use 0.532s to make this step.
+Use 0.781s to make this step.
+Use 0.786s to make this step.
+Use 0.318s to make this step.
+Use 0.181s to make this step.
+Use 0.149s to make this step.
+Use 0.157s to make this step.
+Use 0.103s to make this step.
+Use 0.061s to make this step.
+Use 0.051s to make this step.
+Use 0.056s to make this step.
+Use 0.054s to make this step.
+Use 0.053s to make this step.
+Use 0.029s to make this step.
+Use 0.004s to make this step.
+Use 0.003s to make this step.
+Game finished.
+It's a draw game.
+========================================
+7/30
+Use 1.056s to make this step.
+Use 0.801s to make this step.
+Use 0.428s to make this step.
+Use 0.630s to make this step.
+Use 0.657s to make this step.
+Use 0.784s to make this step.
+Use 0.835s to make this step.
+Use 0.768s to make this step.
+Use 0.608s to make this step.
+Use 0.704s to make this step.
+Use 0.435s to make this step.
+Use 0.169s to make this step.
+Use 0.165s to make this step.
+Use 0.161s to make this step.
+Use 0.150s to make this step.
+Use 0.122s to make this step.
+Use 0.053s to make this step.
+Use 0.014s to make this step.
+Game finished.
+Player1 Win!!
+========================================
+8/30
+Use 1.061s to make this step.
+Use 0.568s to make this step.
+Use 0.662s to make this step.
+Use 0.513s to make this step.
+Use 0.408s to make this step.
+Use 0.437s to make this step.
+Use 0.536s to make this step.
+Use 0.363s to make this step.
+Use 0.524s to make this step.
+Use 0.111s to make this step.
+Use 0.677s to make this step.
+Use 0.835s to make this step.
+Use 0.466s to make this step.
+Use 0.629s to make this step.
+Use 0.372s to make this step.
+Use 0.220s to make this step.
+Use 0.085s to make this step.
+Use 0.041s to make this step.
+Use 0.006s to make this step.
+Use 0.005s to make this step.
+Game finished.
+Player1 Win!!
+========================================
+9/30
+Use 0.992s to make this step.
+Use 0.720s to make this step.
+Use 0.460s to make this step.
+Use 0.300s to make this step.
+Use 0.495s to make this step.
+Use 0.382s to make this step.
+Use 0.407s to make this step.
+Use 0.330s to make this step.
+Use 0.332s to make this step.
+Use 0.431s to make this step.
+Use 0.067s to make this step.
+Use 0.428s to make this step.
+Use 0.156s to make this step.
+Use 0.174s to make this step.
+Use 0.066s to make this step.
+Use 0.058s to make this step.
+Use 0.045s to make this step.
+Use 0.032s to make this step.
+Use 0.013s to make this step.
+Game finished.
+Player1 Win!!
+========================================
+10/30
+Use 0.721s to make this step.
+Use 0.453s to make this step.
+Use 0.472s to make this step.
+Use 0.679s to make this step.
+Use 0.608s to make this step.
+Use 0.403s to make this step.
+Use 0.485s to make this step.
+Use 0.583s to make this step.
+Use 0.586s to make this step.
+Use 0.495s to make this step.
+Use 0.265s to make this step.
+Use 0.162s to make this step.
+Use 0.164s to make this step.
+Use 0.105s to make this step.
+Use 0.113s to make this step.
+Use 0.081s to make this step.
+Use 0.042s to make this step.
+Game finished.
+Player1 Win!!
+========================================
+11/30
+Use 1.015s to make this step.
+Use 0.927s to make this step.
+Use 1.045s to make this step.
+Use 0.852s to make this step.
+Use 1.092s to make this step.
+Use 0.760s to make this step.
+Use 0.963s to make this step.
+Use 0.835s to make this step.
+Use 0.952s to make this step.
+Use 0.870s to make this step.
+Use 0.695s to make this step.
+Use 0.399s to make this step.
+Use 0.227s to make this step.
+Use 0.267s to make this step.
+Use 0.230s to make this step.
+Use 0.107s to make this step.
+Use 0.027s to make this step.
+Use 0.028s to make this step.
+Use 0.007s to make this step.
+Game finished.
+Player2 Win!!
+========================================
+12/30
+Use 1.009s to make this step.
+Use 0.909s to make this step.
+Use 0.767s to make this step.
+Use 0.808s to make this step.
+Use 0.705s to make this step.
+Use 0.655s to make this step.
+Use 0.722s to make this step.
+Use 0.580s to make this step.
+Use 0.397s to make this step.
+Use 0.346s to make this step.
+Use 0.134s to make this step.
+Use 0.228s to make this step.
+Use 0.056s to make this step.
+Use 0.101s to make this step.
+Use 0.146s to make this step.
+Use 0.148s to make this step.
+Use 0.120s to make this step.
+Use 0.070s to make this step.
+Use 0.023s to make this step.
+Use 0.015s to make this step.
+Game finished.
+Player1 Win!!
+========================================
+13/30
+Use 1.027s to make this step.
+Use 0.932s to make this step.
+Use 0.677s to make this step.
+Use 0.564s to make this step.
+Use 0.554s to make this step.
+Use 0.562s to make this step.
+Use 0.463s to make this step.
+Use 0.469s to make this step.
+Use 0.448s to make this step.
+Use 0.252s to make this step.
+Use 0.543s to make this step.
+Use 0.353s to make this step.
+Use 0.194s to make this step.
+Use 0.210s to make this step.
+Use 0.070s to make this step.
+Use 0.027s to make this step.
+Use 0.027s to make this step.
+Use 0.019s to make this step.
+Use 0.027s to make this step.
+Use 0.016s to make this step.
+Use 0.005s to make this step.
+Game finished.
+It's a draw game.
+========================================
+14/30
+Use 1.090s to make this step.
+Use 0.667s to make this step.
+Use 0.638s to make this step.
+Use 0.566s to make this step.
+Use 0.569s to make this step.
+Use 0.658s to make this step.
+Use 0.785s to make this step.
+Use 0.833s to make this step.
+Use 0.904s to make this step.
+Game finished.
+Player2 Win!!
+========================================
+15/30
+Use 1.024s to make this step.
+Use 0.669s to make this step.
+Use 0.574s to make this step.
+Use 0.570s to make this step.
+Use 0.641s to make this step.
+Use 0.657s to make this step.
+Use 0.567s to make this step.
+Use 0.544s to make this step.
+Use 0.331s to make this step.
+Use 0.754s to make this step.
+Use 0.128s to make this step.
+Use 0.431s to make this step.
+Use 0.188s to make this step.
+Game finished.
+Player2 Win!!
+========================================
+16/30
+Use 1.026s to make this step.
+Use 0.819s to make this step.
+Use 0.608s to make this step.
+Use 0.321s to make this step.
+Use 0.329s to make this step.
+Use 0.154s to make this step.
+Use 0.478s to make this step.
+Use 0.089s to make this step.
+Use 0.381s to make this step.
+Use 0.361s to make this step.
+Use 0.404s to make this step.
+Use 0.093s to make this step.
+Use 0.261s to make this step.
+Use 0.254s to make this step.
+Game finished.
+Player1 Win!!
+========================================
+17/30
+Use 0.518s to make this step.
+Use 0.419s to make this step.
+Use 0.351s to make this step.
+Use 0.294s to make this step.
+Use 0.493s to make this step.
+Use 0.304s to make this step.
+Use 0.195s to make this step.
+Use 0.268s to make this step.
+Use 0.403s to make this step.
+Use 0.219s to make this step.
+Use 0.418s to make this step.
+Use 0.257s to make this step.
+Use 0.285s to make this step.
+Use 0.179s to make this step.
+Use 0.055s to make this step.
+Use 0.051s to make this step.
+Use 0.020s to make this step.
+Game finished.
+Player2 Win!!
+========================================
+18/30
+Use 0.817s to make this step.
+Use 0.410s to make this step.
+Use 0.331s to make this step.
+Use 0.316s to make this step.
+Use 0.295s to make this step.
+Use 0.467s to make this step.
+Use 0.536s to make this step.
+Use 0.311s to make this step.
+Use 0.206s to make this step.
+Game finished.
+Player2 Win!!
+========================================
+19/30
+Use 0.695s to make this step.
+Use 0.407s to make this step.
+Use 0.352s to make this step.
+Use 0.302s to make this step.
+Use 0.594s to make this step.
+Use 0.424s to make this step.
+Use 0.425s to make this step.
+Use 0.339s to make this step.
+Use 0.260s to make this step.
+Use 0.267s to make this step.
+Use 0.269s to make this step.
+Use 0.369s to make this step.
+Use 0.267s to make this step.
+Use 0.177s to make this step.
+Use 0.068s to make this step.
+Use 0.014s to make this step.
+Use 0.011s to make this step.
+Game finished.
+Player2 Win!!
+========================================
+20/30
+Use 0.468s to make this step.
+Use 0.504s to make this step.
+Use 0.320s to make this step.
+Use 0.324s to make this step.
+Use 0.263s to make this step.
+Use 0.066s to make this step.
+Use 0.218s to make this step.
+Use 0.288s to make this step.
+Use 0.194s to make this step.
+Use 0.191s to make this step.
+Use 0.161s to make this step.
+Use 0.124s to make this step.
+Use 0.074s to make this step.
+Use 0.019s to make this step.
+Game finished.
+Player2 Win!!
+========================================
+21/30
+Use 0.486s to make this step.
+Use 0.433s to make this step.
+Use 0.384s to make this step.
+Use 0.162s to make this step.
+Use 0.319s to make this step.
+Use 0.323s to make this step.
+Use 0.386s to make this step.
+Use 0.385s to make this step.
+Use 0.424s to make this step.
+Use 0.450s to make this step.
+Use 0.559s to make this step.
+Game finished.
+Player1 Win!!
+========================================
+22/30
+Use 0.560s to make this step.
+Use 0.336s to make this step.
+Use 0.343s to make this step.
+Use 0.238s to make this step.
+Use 0.233s to make this step.
+Use 0.232s to make this step.
+Use 0.336s to make this step.
+Use 0.329s to make this step.
+Use 0.133s to make this step.
+Use 0.130s to make this step.
+Use 0.097s to make this step.
+Use 0.067s to make this step.
+Use 0.068s to make this step.
+Use 0.045s to make this step.
+Use 0.035s to make this step.
+Use 0.025s to make this step.
+Use 0.015s to make this step.
+Game finished.
+Player2 Win!!
+========================================
+23/30
+Use 0.486s to make this step.
+Use 0.341s to make this step.
+Use 0.389s to make this step.
+Use 0.386s to make this step.
+Use 0.404s to make this step.
+Use 0.339s to make this step.
+Use 0.418s to make this step.
+Use 0.335s to make this step.
+Use 0.394s to make this step.
+Use 0.262s to make this step.
+Use 0.183s to make this step.
+Use 0.126s to make this step.
+Use 0.111s to make this step.
+Use 0.120s to make this step.
+Use 0.106s to make this step.
+Use 0.069s to make this step.
+Use 0.044s to make this step.
+Use 0.033s to make this step.
+Use 0.027s to make this step.
+Use 0.010s to make this step.
+Use 0.002s to make this step.
+Game finished.
+It's a draw game.
+========================================
+24/30
+Use 0.416s to make this step.
+Use 0.334s to make this step.
+Use 0.215s to make this step.
+Use 0.415s to make this step.
+Use 0.288s to make this step.
+Use 0.418s to make this step.
+Use 0.385s to make this step.
+Use 0.198s to make this step.
+Use 0.274s to make this step.
+Use 0.317s to make this step.
+Use 0.113s to make this step.
+Use 0.086s to make this step.
+Use 0.064s to make this step.
+Use 0.038s to make this step.
+Use 0.027s to make this step.
+Game finished.
+Player2 Win!!
+========================================
+25/30
+Use 0.500s to make this step.
+Use 0.314s to make this step.
+Use 0.361s to make this step.
+Use 0.236s to make this step.
+Use 0.320s to make this step.
+Use 0.238s to make this step.
+Use 0.205s to make this step.
+Use 0.479s to make this step.
+Use 0.132s to make this step.
+Use 0.107s to make this step.
+Use 0.118s to make this step.
+Use 0.157s to make this step.
+Use 0.168s to make this step.
+Use 0.124s to make this step.
+Use 0.089s to make this step.
+Use 0.092s to make this step.
+Use 0.036s to make this step.
+Use 0.036s to make this step.
+Use 0.020s to make this step.
+Use 0.003s to make this step.
+Use 0.002s to make this step.
+Game finished.
+It's a draw game.
+========================================
+26/30
+Use 0.512s to make this step.
+Use 0.313s to make this step.
+Use 0.447s to make this step.
+Use 0.227s to make this step.
+Use 0.218s to make this step.
+Use 0.379s to make this step.
+Use 0.441s to make this step.
+Use 0.360s to make this step.
+Use 0.271s to make this step.
+Use 0.360s to make this step.
+Use 0.289s to make this step.
+Use 0.102s to make this step.
+Use 0.073s to make this step.
+Use 0.043s to make this step.
+Use 0.074s to make this step.
+Use 0.094s to make this step.
+Use 0.085s to make this step.
+Use 0.034s to make this step.
+Use 0.013s to make this step.
+Use 0.008s to make this step.
+Use 0.006s to make this step.
+Game finished.
+It's a draw game.
+========================================
+27/30
+Use 0.660s to make this step.
+Use 0.296s to make this step.
+Use 0.318s to make this step.
+Use 0.243s to make this step.
+Use 0.267s to make this step.
+Use 0.247s to make this step.
+Use 0.202s to make this step.
+Use 0.330s to make this step.
+Use 0.129s to make this step.
+Use 0.126s to make this step.
+Use 0.095s to make this step.
+Use 0.065s to make this step.
+Use 0.067s to make this step.
+Use 0.043s to make this step.
+Use 0.037s to make this step.
+Use 0.039s to make this step.
+Use 0.035s to make this step.
+Use 0.030s to make this step.
+Use 0.013s to make this step.
+Use 0.003s to make this step.
+Use 0.003s to make this step.
+Game finished.
+It's a draw game.
+========================================
+28/30
+Use 0.432s to make this step.
+Use 0.296s to make this step.
+Use 0.318s to make this step.
+Use 0.220s to make this step.
+Use 0.214s to make this step.
+Use 0.241s to make this step.
+Use 0.197s to make this step.
+Use 0.322s to make this step.
+Use 0.124s to make this step.
+Use 0.125s to make this step.
+Use 0.094s to make this step.
+Use 0.085s to make this step.
+Use 0.065s to make this step.
+Use 0.041s to make this step.
+Use 0.037s to make this step.
+Use 0.035s to make this step.
+Use 0.032s to make this step.
+Use 0.034s to make this step.
+Use 0.011s to make this step.
+Use 0.003s to make this step.
+Use 0.002s to make this step.
+Game finished.
+It's a draw game.
+========================================
+29/30
+Use 0.489s to make this step.
+Use 0.277s to make this step.
+Use 0.272s to make this step.
+Use 0.357s to make this step.
+Use 0.283s to make this step.
+Use 0.279s to make this step.
+Use 0.293s to make this step.
+Use 0.330s to make this step.
+Use 0.334s to make this step.
+Use 0.284s to make this step.
+Use 0.205s to make this step.
+Use 0.190s to make this step.
+Use 0.115s to make this step.
+Use 0.102s to make this step.
+Use 0.057s to make this step.
+Use 0.060s to make this step.
+Use 0.031s to make this step.
+Use 0.041s to make this step.
+Game finished.
+Player1 Win!!
+========================================
+[<function agent_alphabeta1_3 at 0x7f785f35f550>, <function agent_alphabeta2_4 at 0x7f785f35f820>]
+Player1 win 8 times
+Player2 win 14 times
+Draw 8 times
+Cost 847.810s to play 30 games.
