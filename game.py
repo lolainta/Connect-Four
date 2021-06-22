@@ -69,6 +69,7 @@ class Board:
         return False
 
     def start(self,agents):
+        begin=time.time()
         while not self.terminate():
             if self.detail:
                 self.print()

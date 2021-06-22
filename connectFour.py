@@ -10,21 +10,22 @@ def Run():
     p2 = 0
     draw = 0
     N = 20
+    begin_time=time.time()
     for i in range(N):
         print(i, "/", N, end=" \n", sep="")
         game = Board(detail=True)
-        result = game.start([agent_alphabeta1,agent_minimax2])
+        result = game.start([agent_alphabeta1,agent_alphabeta2])
         if result == 1:
             p1 += 1
         elif result == 2:
             p2 += 1
         else:
             draw += 1
-
+    end_time=time.time()
     print("Player1 win", p1, "times")
     print("Player2 win", p2, "times")
     print("Draw", draw, "times")
-
+    print("Cost %.3fs to play %d games."%(end_time-begin_time)%N)
 
 if __name__ == '__main__':
     Run()
