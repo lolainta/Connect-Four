@@ -4,6 +4,7 @@ import game
 
 DEBUG=False
 
+
 def minimax(grid, depth, maximizingPlayer, piece,dep=1):
     if depth == 0 or grid.terminate():
         if DEBUG:
@@ -48,6 +49,50 @@ def minimax(grid, depth, maximizingPlayer, piece,dep=1):
             print("\t"*dep,"--------------------------")        
         return value
 
+
+
+def alphabeta(grid, depth, maximizingPlayer, piece,low,up,dep=1):
+
+    def get_min(grid,depth,maximizingPlayer,piece,low,up,dep=1):
+        if depth == 0 or grid.terminate():
+            return game.get_heuristic(grid, piece),{grid.last}
+        value = (np.Inf,{-1})
+        for col in grid.valid:
+            child = game.drop_piece(grid, col)
+            nxt_value=get_max(child, depth-1, not maximizingPlayer, piece,low,up,dep+1)
+            if nxt_value[0]<value[0]:
+                value=(nxt_value[0],{col})
+            elif nxt_value[0]==value[0]:
+                value[1].add(col)
+            if value[0]<low:
+                return value
+            else:
+                up=min(up,value[0])
+        return value
+
+    def get_max(grid,depth,maximizingPlayer,piece,low,up,dep=1):
+        if depth == 0 or grid.terminate():
+            return game.get_heuristic(grid, piece),{grid.last}
+        value = (-np.Inf,{-1})
+        for col in grid.valid:
+            child = game.drop_piece(grid, col)
+            nxt_value=get_min(child, depth-1, not maximizingPlayer, piece,low,up,dep+1)
+            if nxt_value[0]>value[0]:
+                value=(nxt_value[0],{col})
+            elif nxt_value[0]==value[0]:
+                value[1].add(col)
+            if value[0]>up:
+                return value
+            else:
+                low=max(value[0],low)
+        return value
+
+    if maximizingPlayer:
+        return get_max(grid,depth,maximizingPlayer,piece,low,up,dep)
+    else:
+        return get_min(grid,depth,maximizingPlayer,piece,low,up,dep)
+
+
 def agent_random(grid):
     return random.choice(grid.valid)
 
@@ -80,10 +125,16 @@ def agent_score(grid):
 
 ## The last parameter for minimax agent depends on player 1 or player 2
 
-# You can only put this agent in player 2
-def agent_minimax1(grid):
-    return random.sample(minimax(grid,3,True,1)[1],1)[0]
 
 # You can only put this agent in player 1
+def agent_alphabeta1(grid):
+    return random.sample(alphabeta(grid,4,True,1,-float("inf"),float("inf"))[1],1)[0]
 def agent_minimax2(grid):
-    return random.sample(minimax(grid,2,False,2)[1],1)[0]
+    return random.sample(minimax(grid,4,False,2)[1],1)[0]
+
+
+# You can only put this agent in player 2
+def agent_minimax1(grid):
+    return random.sample(minimax(grid,2,True,1)[1],1)[0]
+def agent_alphabeta2(grid):
+    return random.sample(alphabeta(grid,4,False,2,-float("inf"),float("inf"))[1],1)[0]

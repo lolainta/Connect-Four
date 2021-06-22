@@ -74,7 +74,6 @@ class Board:
                 self.print()
                 # print("\t"*dep,"Player",self.mark,"'s turn....",sep="")
             # if self.mark==1:
-
             start_time = time.time()
             # if not self.put(int(input())):
             if not self.put(agents[self.mark-1](self)):
@@ -83,17 +82,7 @@ class Board:
             end_time = time.time()
             if self.detail:
                 print('Use %.3fs to make this step.' %(end_time - start_time))
-
-            # elif self.mark==2:
-            #     start_time = time.time()
-            #     # if not self.put(int(input())):
-            #     if not self.put(agent2(self)):
-            #         print("Invalid input.")
-            #         break
-            #     end_time = time.time()
-            #     if self.detail:
-            #         print('Use %.3fs to make this step.' %(end_time - start_time))
-                self.round += 1
+            self.round += 1
             # print("---------------------")
         print("Game finished.")
 
@@ -136,9 +125,9 @@ def get_heuristic(grid, piece):
     num_twos = count_windows(grid, 2, 1)
     num_threes = count_windows(grid, 3, 1)
     num_fours = count_windows(grid, 4, 1)
-    num_twos_opp = count_windows(grid, 2, 3-1)
-    num_threes_opp = count_windows(grid, 3, 3-1)
-    num_fours_opp = count_windows(grid, 4, 3-1)
+    num_twos_opp = count_windows(grid, 2, 2)
+    num_threes_opp = count_windows(grid, 3, 2)
+    num_fours_opp = count_windows(grid, 4, 2)
     score = 1e10*grid.win(1) + 1e6*num_threes + 10*num_twos - 10*num_twos_opp - 1e6*num_threes_opp - 1e10*grid.win(3-1)
     return score
 
@@ -147,29 +136,29 @@ def check_window(grid, window, num_discs, piece):
     return (window.count(piece) == num_discs and window.count(0) == grid.connect-num_discs)
 
 # Helper function for get_heuristic: counts number of windows satisfying specified heuristic conditions
-def count_windows(grid, num_discs, piece):
-    num_windows = 0
+def count_windows(grid,num_discs, piece):
+    num_windows=0
     # horizontal
     for row in range(grid.row):
         for col in range(grid.column-(grid.connect-1)):
-            window = list(grid.table[row, col:col+grid.connect])
-            if check_window(grid, window, num_discs, piece):
+            window=list(grid.table[row,col:col+grid.connect])
+            if check_window(grid,window,num_discs, piece):
                 num_windows += 1
     # vertical
     for row in range(grid.row-(grid.connect-1)):
         for col in range(grid.column):
-            window = list(grid.table[row:row+grid.connect, col])
+            window=list(grid.table[row:row+grid.connect, col])
             if check_window(grid, window, num_discs, piece):
                 num_windows += 1
     # positive diagonal
     for row in range(grid.row-(grid.connect-1)):
         for col in range(grid.column-(grid.connect-1)):
-            window = list(grid.table[range(row, row+grid.connect), range(col, col+grid.connect)])
+            window=list(grid.table[range(row, row+grid.connect), range(col, col+grid.connect)])
             if check_window(grid, window, num_discs, piece):
                 num_windows += 1
     # negative diagonal
     for row in range(grid.connect-1, grid.row):
-        window = list(grid.table[range(row, row-grid.connect, -1), range(col, col+grid.connect)])
+        window=list(grid.table[range(row, row-grid.connect, -1), range(col, col+grid.connect)])
         for col in range(grid.column-(grid.connect-1)):
             if check_window(grid, window, num_discs, piece):
                 num_windows += 1
