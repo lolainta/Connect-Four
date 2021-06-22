@@ -1,94 +1,25 @@
-0/5
-Use 0.019s to make this step.
----------------------
-Use 0.005s to make this step.
----------------------
-Use 0.017s to make this step.
----------------------
-Use 0.003s to make this step.
----------------------
-Use 0.013s to make this step.
----------------------
-Use 0.004s to make this step.
----------------------
-Use 0.014s to make this step.
----------------------
-Use 0.004s to make this step.
----------------------
-Use 0.011s to make this step.
+0/1
+Use 0.010s to make this step.
 ---------------------
 Use 0.003s to make this step.
 ---------------------
 Use 0.010s to make this step.
 ---------------------
-Game finished.
-Player1 use 0.007s to make a step in average.
-Player1 Win!!
-========================================
-1/5
-Use 0.013s to make this step.
----------------------
 Use 0.003s to make this step.
 ---------------------
-Use 0.012s to make this step.
----------------------
-Use 0.004s to make this step.
----------------------
-Use 0.011s to make this step.
+Use 0.010s to make this step.
 ---------------------
 Use 0.003s to make this step.
 ---------------------
 Use 0.010s to make this step.
 ---------------------
-Game finished.
-Player1 use 0.006s to make a step in average.
-Player1 Win!!
-========================================
-2/5
-Use 0.010s to make this step.
----------------------
-Use 0.004s to make this step.
----------------------
-Use 0.013s to make this step.
----------------------
-Use 0.004s to make this step.
----------------------
-Use 0.012s to make this step.
----------------------
-Use 0.004s to make this step.
----------------------
-Use 0.014s to make this step.
----------------------
-Game finished.
-Player1 use 0.006s to make a step in average.
-Player1 Win!!
-========================================
-3/5
-Use 0.016s to make this step.
----------------------
-Use 0.007s to make this step.
----------------------
-Use 0.016s to make this step.
----------------------
-Use 0.005s to make this step.
----------------------
-Use 0.015s to make this step.
----------------------
-Use 0.004s to make this step.
----------------------
-Use 0.011s to make this step.
----------------------
-Use 0.003s to make this step.
----------------------
-Use 0.013s to make this step.
----------------------
 Use 0.003s to make this step.
 ---------------------
 Use 0.010s to make this step.
 ---------------------
-Use 0.004s to make this step.
+Use 0.003s to make this step.
 ---------------------
-Use 0.012s to make this step.
+Use 0.010s to make this step.
 ---------------------
 Use 0.003s to make this step.
 ---------------------
@@ -98,35 +29,12 @@ Use 0.003s to make this step.
 ---------------------
 Use 0.011s to make this step.
 ---------------------
-Use 0.003s to make this step.
----------------------
-Use 0.010s to make this step.
----------------------
 Game finished.
-Player1 use 0.006s to make a step in average.
+Player1 use 0.005s to make a step in average.
 Player1 Win!!
 ========================================
-4/5
-Use 0.012s to make this step.
----------------------
-Use 0.004s to make this step.
----------------------
-Use 0.011s to make this step.
----------------------
-Use 0.004s to make this step.
----------------------
-Use 0.012s to make this step.
----------------------
-Use 0.004s to make this step.
----------------------
-Use 0.013s to make this step.
----------------------
-Game finished.
-Player1 use 0.006s to make a step in average.
-Player1 Win!!
-========================================
-[<function agent_alphabeta1_1 at 0x7f96a8574430>, <function agent_smarter at 0x7f96a85741f0>]
-Player1 win 5 times
+[<function agent_alphabeta1_1 at 0x7fc2282f95e0>, <function agent_smarter at 0x7fc2282f91f0>]
+Player1 win 1 times
 Player2 win 0 times
 Draw 0 times
-Cost 0.469s to play 5 games.
+Cost 0.109s to play 1 games.
